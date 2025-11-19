@@ -6,7 +6,7 @@ import type { Card } from "../../cards"
 
 export const DebitCard: React.FC = () => {
 
-
+	//	this is an example of how to use useState hook
 	const cardList: Card[] = { ...cards };
 	const [card, setCard] = useState({
 		number: "",
