@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'h8k-components';
-import { DebitCard } from './components/debit-card/DebitCard';
+import { DebitCard } from './components/debit-card/DebitCard2';
 
 const title: string = "Cards List";
 
