@@ -23,7 +23,7 @@ export const DebitCard: React.FC = () => {
     let hoveredStr: string = "";
 
     originStr = numStr.slice(0, 4) + " XXXX XXXX XXXX";
-
+    // hoveredStr = numStr.slice(0, 4) (4, 8) (8, 12) (12, 16)
     for (let i = 0; i < 4; i++) {
       i !== 3
         ? (hoveredStr += numStr.slice(4 * i, 4 * (i + 1)) + " ")
